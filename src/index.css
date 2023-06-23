@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Nandinagari&display=swap');
+
+:root{
+    --primary-color:#FFAB40;
+    --secundary-color:#40C4FF;
+    --terciary-color:#F50057;
+    --quartenary-color:white
+}
+body{
+    background-color: var(--primary-color);
+    
+}
+
+#container{
+    background-color: var(--secundary-color);
+    width: 360px;
+    height: 500px;
+    margin: 100px auto;
+    font-size: 15px;
+    font-family:'Noto Sans Nandinagari', sans-serif;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    box-shadow : 5px  5px #88888888;
+    border-radius: 20px;
+    
+
+}
+
+#title{
+    color: white;
+    padding: 5px;
+    background-color: 0px 0px 5px red;
+    text-transform: uppercase;
+    font-size: 18px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    text-align: center;
+}
+
+.tipsForm{
+    padding-left: 20px;
+    padding-right: 20px;
+
+
+}
+
+.formInput{
+    background-color: white;
+    width: 40px;
+    padding: 5px 5px 8px 8px;
+
+}
+.formInput:focus{
+    border:3px solid var(--primary-color)
+}
+
+
+.formSelect{
+    width: 180px;
+    padding: 5px;
+    font-size: 12px;
+
+}
+
+.formSubmit{
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    margin: 30px auto;
+    background-color: var(--terciary-color);
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+    font-size: 17px;
+    color: var(--quartenary-color);
+}
+#totalType{
+    font-size: 18px;
+    margin-top: 5px;
+    text-align: center;
+    
+}
